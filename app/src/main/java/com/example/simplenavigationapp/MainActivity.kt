@@ -7,15 +7,17 @@ import android.view.View
 
 class MainActivity<Button : View?> : AppCompatActivity() {
     var create : Button = TODO()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnhome = findViewById<Button>(R.id.btnhome)
+
+       val btnhome = findViewById<Button>(R.id.btnhome)
         val btnabout = findViewById<Button>(R.id.btnabout)
         val btnservices = findViewById<Button>(R.id.btnservices)
-        val btncontacts = findViewById<Button>(R.id.btncontacts)
-        val btnlogin = findViewById<Button>(R.id.btnlogin)
+       val btncontacts = findViewById<Button>(R.id.btncontacts)
+       val btnlogin = findViewById<Button>(R.id.btnlogin)
 
         if (btnhome != null) {
             btnhome.setOnClickListener{

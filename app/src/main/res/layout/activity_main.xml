@@ -12,43 +12,63 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="HOME"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="77dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099"
+         />
 
     <Button
         android:id="@+id/btnabout"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="ABOUT"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="168dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248"
+         />
 
     <Button
         android:id="@+id/btnservices"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="SERVICES"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="266dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393"
+         />
 
     <Button
         android:id="@+id/btncontacts"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="CONTACTS"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="366dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.522"
+        />
 
     <Button
         android:id="@+id/btnlogin"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:text="LOG IN"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="475dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
